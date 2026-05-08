@@ -9,7 +9,6 @@ import CustomCursor from './components/CustomCursor'
 import BackToTop from './components/BackToTop'
 import CookieBanner from './components/CookieBanner'
 import Preloader from './components/Preloader'
-import './mobile-fixes.css'
 
 // ── Lazy-loaded pages (code splitting) ──────────────────────
 const Home     = lazy(() => import('./pages/Home'))
