@@ -1,0 +1,21 @@
+{
+  "name": "LMN Industries — Precision CNC Turning",
+  "short_name": "LMN Industries",
+  "description": "Precision CNC turning, batch production, and custom machined components. Chennai, India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F2A44",
+  "theme_color": "#0F2A44",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}

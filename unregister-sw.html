@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unregistering Service Worker...</title>
+</head>
+<body>
+  <h1>Unregistering Service Worker...</h1>
+  <p id="status">Please wait...</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        const promises = registrations.map(reg => reg.unregister());
+        Promise.all(promises).then(() => {
+          document.getElementById('status').textContent = 'Service worker unregistered! You can close this tab and refresh your main app.';
+          console.log('All service workers unregistered');
+        });
+      });
+    } else {
+      document.getElementById('status').textContent = 'Service workers not supported in this browser.';
+    }
+  </script>
+</body>
+</html>
