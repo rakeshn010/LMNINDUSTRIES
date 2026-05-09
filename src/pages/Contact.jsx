@@ -36,7 +36,7 @@ const contactInfo = [
   { icon: FaPhone,        label: 'Phone',        value: '+91 89708 55788',                              href: 'tel:+918970855788' },
   { icon: FaEnvelope,     label: 'Email',         value: 'lmnindustries@gmail.com',                      href: 'mailto:lmnindustries@gmail.com' },
   { icon: FaWhatsapp,     label: 'WhatsApp',      value: '+91 77955 33453',                              href: 'https://wa.me/917795533453' },
-  { icon: FaMapMarkerAlt, label: 'Address',       value: 'Industrial Area, Ambattur, Chennai – 600 058', href: 'https://maps.google.com/?q=Ambattur+Industrial+Estate+Chennai' },
+  { icon: FaMapMarkerAlt, label: 'Address',       value: '2F9J+9W2, Thigalarapalya, Bengaluru, Karihobanahalli, Karnataka 560058', href: 'https://maps.google.com/?q=2F9J+9W2,+Thigalarapalya,+Bengaluru,+Karnataka+560058' },
   { icon: FaClock,        label: 'Working Hours', value: 'Mon – Sat: 8:00 AM – 6:00 PM',                href: null },
 ]
 
@@ -294,12 +294,12 @@ export default function Contact() {
       <section style={{ background: '#f8fafc', padding: '3rem 0' }}>
         <div className="lmn-wrap">
           <motion.h3 {...inView(0)} style={{ fontFamily: 'Poppins,sans-serif', fontSize: '1.15rem', fontWeight: 700, color: '#0F2A44', marginBottom: '1.25rem' }}>
-            Find Us in Chennai
+            Find Us in Bengaluru
           </motion.h3>
           <motion.div {...inView(0.1)} style={{ borderRadius: 14, overflow: 'hidden', boxShadow: '0 8px 32px rgba(0,0,0,0.12)', border: '1px solid #e2e8f0' }}>
             <iframe
               title="LMN Industries Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0!2d80.1!3d13.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sAmbattur%20Industrial%20Estate%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2!2d77.5!3d12.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzAwLjAiTiA3N8KwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin&q=2F9J+9W2,+Thigalarapalya,+Bengaluru,+Karnataka+560058"
               width="100%" height="400" style={{ border: 0, display: 'block' }}
               allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
             />

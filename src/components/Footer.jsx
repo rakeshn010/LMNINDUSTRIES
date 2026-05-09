@@ -71,7 +71,7 @@ export default function Footer() {
           <div>
             <p style={{ fontFamily:'Poppins,sans-serif', fontWeight:600, fontSize:'0.9rem', color:'#fff', marginBottom:'1rem' }}>Contact</p>
             {[
-              { icon: FaMapMarkerAlt, text: 'Industrial Area, Ambattur,\nChennai – 600 058, TN', href: null },
+              { icon: FaMapMarkerAlt, text: '2F9J+9W2, Thigalarapalya,\nBengaluru, Karnataka 560058', href: null },
               { icon: FaPhone,        text: '+91 77955 33453',          href: 'tel:+917795533453' },
               { icon: FaPhone,        text: '+91 89708 55788',          href: 'tel:+918970855788' },
               { icon: FaEnvelope,     text: 'lmnindustries@gmail.com',   href: 'mailto:lmnindustries@gmail.com' },
