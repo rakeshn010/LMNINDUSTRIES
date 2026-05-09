@@ -224,7 +224,7 @@ export default function Products() {
                   ))}
                 </div>
                 <MagneticButton
-                  href="https://wa.me/919876543210?text=I%20am%20interested%20in%20a%20similar%20component."
+                  href="https://wa.me/917795533453?text=I%20am%20interested%20in%20a%20similar%20component."
                   as="a"
                   target="_blank"
                   rel="noopener noreferrer"

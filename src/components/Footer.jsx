@@ -34,7 +34,7 @@ export default function Footer() {
             <p style={{ fontSize:'0.84rem', lineHeight:1.75, color:'#64748b', marginBottom:'1.25rem' }}>
               Precision CNC turning and machining solutions for industrial clients across India. Quality, accuracy, and on-time delivery — every time.
             </p>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/917795533453" target="_blank" rel="noopener noreferrer"
               style={{ display:'inline-flex', alignItems:'center', gap:'0.45rem', background:'#16a34a', color:'#fff', fontWeight:600, fontSize:'0.82rem', padding:'0.6rem 1.2rem', borderRadius:6, textDecoration:'none', transition:'background 0.2s' }}
               onMouseEnter={e => e.currentTarget.style.background='#15803d'}
               onMouseLeave={e => e.currentTarget.style.background='#16a34a'}
@@ -72,8 +72,9 @@ export default function Footer() {
             <p style={{ fontFamily:'Poppins,sans-serif', fontWeight:600, fontSize:'0.9rem', color:'#fff', marginBottom:'1rem' }}>Contact</p>
             {[
               { icon: FaMapMarkerAlt, text: 'Industrial Area, Ambattur,\nChennai – 600 058, TN', href: null },
-              { icon: FaPhone,        text: '+91 98765 43210',          href: 'tel:+919876543210' },
-              { icon: FaEnvelope,     text: 'info@lmnindustries.com',   href: 'mailto:info@lmnindustries.com' },
+              { icon: FaPhone,        text: '+91 77955 33453',          href: 'tel:+917795533453' },
+              { icon: FaPhone,        text: '+91 89708 55788',          href: 'tel:+918970855788' },
+              { icon: FaEnvelope,     text: 'lmnindustries@gmail.com',   href: 'mailto:lmnindustries@gmail.com' },
             ].map(({ icon: Icon, text, href }) => (
               <div key={text} style={{ display:'flex', alignItems:'flex-start', gap:'0.7rem', marginBottom:'0.75rem' }}>
                 <Icon style={{ color:'#3b82f6', marginTop:'2px', flexShrink:0, fontSize:'0.9rem' }} />

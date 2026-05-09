@@ -32,9 +32,10 @@ const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY'
 // ──────────────────────────────────────────────────────────────
 
 const contactInfo = [
-  { icon: FaPhone,        label: 'Phone',        value: '+91 98765 43210',                              href: 'tel:+919876543210' },
-  { icon: FaEnvelope,     label: 'Email',         value: 'info@lmnindustries.com',                      href: 'mailto:info@lmnindustries.com' },
-  { icon: FaWhatsapp,     label: 'WhatsApp',      value: '+91 98765 43210',                              href: 'https://wa.me/919876543210' },
+  { icon: FaPhone,        label: 'Phone',        value: '+91 77955 33453',                              href: 'tel:+917795533453' },
+  { icon: FaPhone,        label: 'Phone',        value: '+91 89708 55788',                              href: 'tel:+918970855788' },
+  { icon: FaEnvelope,     label: 'Email',         value: 'lmnindustries@gmail.com',                      href: 'mailto:lmnindustries@gmail.com' },
+  { icon: FaWhatsapp,     label: 'WhatsApp',      value: '+91 77955 33453',                              href: 'https://wa.me/917795533453' },
   { icon: FaMapMarkerAlt, label: 'Address',       value: 'Industrial Area, Ambattur, Chennai – 600 058', href: 'https://maps.google.com/?q=Ambattur+Industrial+Estate+Chennai' },
   { icon: FaClock,        label: 'Working Hours', value: 'Mon – Sat: 8:00 AM – 6:00 PM',                href: null },
 ]
@@ -247,7 +248,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <MagneticButton
-              href="https://wa.me/919876543210?text=Hello%20LMN%20Industries%2C%20I%20would%20like%20to%20get%20a%20quote."
+              href="https://wa.me/917795533453?text=Hello%20LMN%20Industries%2C%20I%20would%20like%20to%20get%20a%20quote."
               as="a"
               target="_blank"
               rel="noopener noreferrer"

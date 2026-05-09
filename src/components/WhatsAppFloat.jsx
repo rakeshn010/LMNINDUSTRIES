@@ -37,7 +37,7 @@ export default function WhatsAppFloat() {
 
       {/* Button */}
       <motion.a
-        href="https://wa.me/919876543210?text=Hello%20LMN%20Industries%2C%20I%20would%20like%20to%20get%20a%20quote."
+        href="https://wa.me/917795533453?text=Hello%20LMN%20Industries%2C%20I%20would%20like%20to%20get%20a%20quote."
         target="_blank"
         rel="noopener noreferrer"
         className="wa-btn"
